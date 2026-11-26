@@ -1,0 +1,23 @@
+TURBOPLUS - ESTRUTURA ORGANIZADA
+
+Projeto Spring Boot original preservado. Insira os códigos nos caminhos abaixo:
+
+JAVA (src/main/java/turboplus/turboplus/)
+- controller/: controllers e rotas
+- model/: entidades (Cliente, Veiculo, Agendamento)
+- repository/: interfaces JpaRepository
+- service/: regras de negócio
+- config/: configurações adicionais
+
+RECURSOS (src/main/resources/)
+- templates/: páginas HTML com Thymeleaf
+- static/css/: arquivos CSS
+- static/js/: arquivos JavaScript
+- static/img/: imagens e logotipos
+- application.properties: banco de dados e servidor
+
+IMPORTANTE:
+- O pacote-base do projeto é turboplus.turboplus.
+- Mantenha os pacotes Java de acordo com as pastas.
+- Não apague pom.xml, mvnw ou mvnw.cmd.
+- Configure a senha do MySQL em application.properties.
